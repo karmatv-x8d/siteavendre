@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* ENTÊTE BLEUE */
+  .entete {
+    background-color: #007BFF; /* Bleu */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* CONTENU MILIEU BLANC */
+  .contenu {
+    background-color: white;
+    color: #000;
+    padding: 2rem;
+  }
+  
+  /* PIED DE PAGE ROUGE */
+  .pied {
+    background-color: #CC0000; /* Rouge */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  

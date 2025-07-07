@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ma Boutique Pagne</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- EN-TÊTE BLEUE -->
+  <header class="entete">
+    <h1>Pagne Chic</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#produits">Produits</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CONTENU MILIEU BLANC -->
+  <main class="contenu">
+    <section id="accueil">
+      <h2>Bienvenue</h2>
+      <p>Découvrez nos pagnes traditionnels et modernes !</p>
+    </section>
+
+    <section id="produits">
+        <h2>Nos Produits</h2>
+        <div class="produit" data-nom="Pagne Wax Bleu" data-prix="5000">
+          <h3>Pagne Wax Bleu</h3>
+          <p>Prix : 5000 FCFA</p>
+          <button class="ajouter-panier">Ajouter au panier</button>
+        </div>
+      </section>
+      
+      <section id="panier">
+        <h2>Mon Panier</h2>
+        <ul id="liste-panier"></ul>
+        <p>Total : <span id="total">0</span> FCFA</p>
+      </section>
+      
+  </main>
+
+  <!-- PIED DE PAGE ROUGE -->
+  <footer class="pied">
+    <p>© 2025 - Pagne Chic | Tous droits réservés</p>
+  </footer>
+
+  <!-- Icône WhatsApp flottante -->
+<a id="whatsapp-link" href="#" class="whatsapp" target="_blank">
+    <img src="img/whatsapp-icon.png" alt="Commander sur WhatsApp">
+  </a>
+  
+</body>
+</html>
